@@ -56,9 +56,7 @@
          "Invocation": {
             "description": "使用Native.js能力"
         },
-        "Messaging": {
-            "description": "访问通讯能力"
-        },
+        
         "Orientation": {
             "description": "访问方向感应器"
         },
@@ -181,9 +179,9 @@
 					}
 				},
 				"android": {
-					"mdpi": "", /*普通屏启动图片，分辨率：240x282*/
-					"ldpi": "", /*大屏启动图片，分辨率：320x442*/
-					"hdpi": "", /*高分屏启动图片，分辨率：480x762*/
+					"mdpi": "I:/OneDrive/app/sgold/素材/5.png", /*普通屏启动图片，分辨率：240x282*/
+					"ldpi": "I:/OneDrive/app/sgold/素材/5.png", /*大屏启动图片，分辨率：320x442*/
+					"hdpi": "I:/OneDrive/app/sgold/素材/5.png", /*高分屏启动图片，分辨率：480x762*/
 					"xhdpi": "", /*720P高分屏启动图片，分辨率：720x1242*/
 					"xxhdpi": ""
 				}
@@ -222,7 +220,6 @@
 					"cngoldres/m02_close.png",
 					"cngoldres/2233024.js",
 					"cngoldres/stat.php",
-					"cngoldres/core.php",
 					"cngoldres/kx_ad_ex_01.jpg",
 					"cngoldres/m2_hot.png",
 					"cngoldres/m3_btn_icon01.png",
@@ -236,16 +233,18 @@
 					"cngoldres/m3_logo_icon.png",
 					"cngoldres/pic1.gif",
 					"cngoldres/m3_nav_close.png",
-					"cngoldres/m_kx_choose_02.png"
+					"cngoldres/m_kx_choose_02.png",
+					"cngoldres/core.php",
+					"js/mui.min.js",
+					"css/mui.min.css"
 				],
-				"priority": 0
+				"priority": 0,
+				"refer": []
 			}
 		},
 		"idle": {
 			"resources": [
-				"js/mui.min.js",
 				"fonts/mui.ttf",
-				"css/mui.min.css",
 				"js/mui.js",
 				"css/mui.css"
 			]
