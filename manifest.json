@@ -236,7 +236,8 @@
 					"cngoldres/m_kx_choose_02.png",
 					"cngoldres/core.php",
 					"js/mui.min.js",
-					"css/mui.min.css"
+					"css/mui.min.css",
+					"js/jquery.min.js"
 				],
 				"priority": 0,
 				"refer": []

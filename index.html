@@ -10,6 +10,7 @@
 
 	<body>
 		<script src="js/mui.min.js"></script>
+		<script src="js/jquery.min.js"></script>
 		<script type="text/javascript">
 			mui.init({
 			    subpages:[{
@@ -21,6 +22,11 @@
 			      }
 			    }]
 			  });
+			  mui.plusReady(function(){
+			  	var subPage = plus.webview.getWebviewById("http://m.cngold.org/kuaixun");
+			  	$.fire(subPage,'', null); 
+			  });
+			  
 		</script>
 	</body>
 
