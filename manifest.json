@@ -237,7 +237,8 @@
 					"cngoldres/core.php",
 					"js/mui.min.js",
 					"css/mui.min.css",
-					"js/jquery.min.js"
+					"js/jquery.min.js",
+					"fonts/mui.ttf"
 				],
 				"priority": 0,
 				"refer": []
@@ -245,7 +246,6 @@
 		},
 		"idle": {
 			"resources": [
-				"fonts/mui.ttf",
 				"js/mui.js",
 				"css/mui.css"
 			]
